@@ -7,10 +7,32 @@
     <title>vanilla JS</title>
    
 </head>
+<style>
+    textarea{
+        width: 90%;
+        height: 10vh;
+        display: block;
+        margin: 1rem;
+        padding: 1rem;
+    }
 
+    #output {
+        border: 0.5rem solid black;
+        width: 90%;
+        height: 10vh;
+        display: block;
+        margin: 1rem;
+        padding: 1rem;
+;
+    }
+</style>
 <body>
     <h1>talk bannana</h1>
+    
+    <textarea id="txt-input" placeholder="enter text to convert it into banana"></textarea>
     <button id="btn-translate">Translate</button>
+    <div style="font-size: larger;">output comes here 👇</div>
+    <div id="output"></div>
     <script src="app.js" type="text/javascript"></script>
 </body>
 </html>
