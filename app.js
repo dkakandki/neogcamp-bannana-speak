@@ -1,9 +1,10 @@
 
+var btntranslate = document.querySelector("#btn-translate");
 
-var username = prompt("give me username")
+function clickeventhandler(){
 
-var welcomemsg = ("this script works!" + username)
+    console.log("clicked!");
+};
 
-alert(welcomemsg)
-
+btntranslate.addEventListener("click",clickeventhandler)
 
