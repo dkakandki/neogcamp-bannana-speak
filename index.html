@@ -6,33 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>vanilla JS</title>
    
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    textarea{
-        width: 90%;
-        height: 10vh;
-        display: block;
-        margin: 1rem;
-        padding: 1rem;
-    }
-
-    #output {
-        border: 1px solid black;
-        width: 90%;
-        height: 10vh;
-        display: block;
-        margin: 1rem;
-        padding: 1rem;
-;
-    }
-</style>
 <body>
-    <h1>Talk bannana</h1>
+    <nav class="navigation-container">
+        <div class="nav brand">Minion Speak</div>
+    </nav>
+    <main>
     
-    <textarea id="txt-input" placeholder="enter text to convert it into banana"></textarea>
-    <button id="btn-translate">Translate</button>
-    <div style="font-size: x-large;">output comes here 👇</div>
-    <div id="output"></div>
-    <script src="app.js" type="text/javascript"></script>
-</body>
+       <textarea id="txt-input" placeholder="enter text to convert it into Minion"></textarea>
+       <div><button id="btn-translate">Translate to Minion</button></div>
+        <div style="font-size: x-large;">output comes here 👇</div>
+        <div id="output"></div>
+        <script src="app.js" type="text/javascript"></script>
+    </main>
+        <footer class="footer">
+            <div class="footer-header">about</div>
+            <p>
+                Are you a fan of minions? Did you know that the gibberish they 
+                say is an actual language. Use the translator to convert your
+                 text from English to Minion speak or Yoda Speak.
+            </p>
+    
+        </footer>
+        
+    </body>
+    
 </html>
