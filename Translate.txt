@@ -1,2 +1,1 @@
 Translate to minion.
-Hello
